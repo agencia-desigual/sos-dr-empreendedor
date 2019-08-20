@@ -1,0 +1,150 @@
+@import 'fontes.css';
+
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Effra";
+    background-color: #eaecf1;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,
+p,a,span
+{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+a{cursor: pointer;}
+
+button,
+input,
+textarea,
+select{outline: none; font-family: "Effra";}
+
+button{cursor: pointer;}
+
+ul{list-style-type: none; margin: 0px; padding: 0px;}
+
+.table{
+    background-color: #ffffff !important;
+    /*border-radius: 25px !important;*/
+}
+
+th, td{
+    border: 1px solid #c8cfdf;
+}
+
+.logo{
+    padding: 25px;
+    width: 500px;
+}
+
+.container-dashboard{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.div-login{
+    background-color: #ffffff;
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    border: 1px solid #c8cfdf;
+}
+
+.card-graficos{
+    background-color: #ffffff;
+    padding: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid #c8cfdf;
+}
+
+.card-graficos p{
+    color: #677391;
+    padding: 10px;
+}
+
+.borda{
+    border-right: 1px solid #c8cfdf;
+    border-left: 1px solid #c8cfdf;
+    border-bottom: 1px solid #c8cfdf;
+    border-top: 1px solid #c8cfdf;
+}
+
+.borda-coluna{
+    border-right: 1px solid #c8cfdf;
+    border-left: 1px solid #c8cfdf;
+}
+
+.borda-linha{
+    border-bottom: 1px solid #c8cfdf;
+    border-top: 1px solid #c8cfdf;
+}
+
+.barra-progresso{
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+    background-color: #45a3e6;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+}
+
+.barra-progresso-compara1{
+    height: 25px;
+    padding: 0px 0px 0px 0px;
+    background-color: #45a3e6;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    /*border-top-right-radius: 25px;*/
+    /*border-bottom-right-radius: 25px;*/
+}
+
+.barra-progresso-compara2{
+    top: 25px;
+    height: 25px;
+    padding: 0px 0px 0px 0px;
+    background-color: #27448B;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    /*border-top-right-radius: 25px;*/
+    /*border-bottom-right-radius: 25px;*/
+}
+
+.coluna-cargo{
+    width: 200px;
+    height: 70px;
+}
+
+.coluna-cargo p{
+    color: #677391;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.coluna-progesso{
+    width: 100px;
+    height: 70px;
+    position: relative;
+}
+
+.card-porcentagem{
+    height: auto;
+    float: right;
+    width: calc(100% - 850px);
+}

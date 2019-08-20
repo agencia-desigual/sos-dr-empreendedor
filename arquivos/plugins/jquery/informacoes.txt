@@ -1,0 +1,4 @@
+URLs de origem:
+https://code.jquery.com/jquery.slim.min.js
+https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
+VERSAO: 3.3.1
